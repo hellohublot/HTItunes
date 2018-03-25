@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'HTItunes_Example' do
+  pod 'HTItunes', :path => '../'
+
+  target 'HTItunes_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
