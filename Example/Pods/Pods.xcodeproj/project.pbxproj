@@ -1,0 +1,739 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		204953A43E7BBE01928EC1BB59575F37 /* HTItunes.h in Headers */ = {isa = PBXBuildFile; fileRef = F6D2A119789726B4A54F6623D39225C1 /* HTItunes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		25EF8F55A7895BAF04A3CF23FFFC4CCC /* HTItunes-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 97BB11C6C76A5DEBAA0342D6604C514F /* HTItunes-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B056BDE5F3F722255629FAF2243E19D /* HTItunesManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 30EA62E0F2E5BA411A01C604961E2E24 /* HTItunesManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C882E130712B7361ABB0CB053564B3E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		3F996CAE13DC97B3489B63B6006AA99A /* HTItunesModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 25AB552DB72DBD29854FC6D9B0E035B9 /* HTItunesModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		492F842D14B13DCD4925457A4EAFCE84 /* Pods-HTItunes_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E345848859F0D7637317EFBB6C2471CB /* Pods-HTItunes_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5791969271151D9D79B79D2FACBE85EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		5AB5C1211F06300CA06C22D3C347386C /* Pods-HTItunes_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EC115444C9E154BA2E204AE16F1CCF12 /* Pods-HTItunes_Tests-dummy.m */; };
+		5EB10F4B6A82DA3DD4E7830CC662CFE4 /* Pods-HTItunes_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C6FA6E8B64A808BEF1EAD490FC04F09 /* Pods-HTItunes_Example-dummy.m */; };
+		71F53DBE04067E051484D1B405B5D4A5 /* Pods-HTItunes_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 79DF52670A7771C731933B31D8C9EE45 /* Pods-HTItunes_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		74EF009A9DE7B056F30FAA1C5013A130 /* HTItunesManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 34CEA62E2CA94BCFFD6F695A9AE5CB3E /* HTItunesManager.m */; };
+		A23EA69D71E1A3B035FC1F042179E751 /* HTItunes-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 22497CB5BEF20E39F61D320D40EB037B /* HTItunes-dummy.m */; };
+		EC35B020806909D6352AC213C006D33B /* HTItunesModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3488F27480D184E8A9B57B151B3248E0 /* HTItunesModel.m */; };
+		F26F183E33D22E3D76C279C00814D0ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B2A4354DD3ED7B14E6697D1C76CFE975 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9C2A900F7DD981ADED928811C66F182;
+			remoteInfo = HTItunes;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0928B827E4ECEE0934DB1980CCCDF031 /* Pods-HTItunes_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HTItunes_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		09A7B1EBDFA5331C3953437528ACB18A /* Pods-HTItunes_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HTItunes_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		0B1BCAF991CD0255104DC37561EA6772 /* Pods-HTItunes_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HTItunes_Tests.modulemap"; sourceTree = "<group>"; };
+		0CF3CFC56C5327888D5EEE78CBD59667 /* Pods-HTItunes_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HTItunes_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0DA2E609B429F67388BA6E75A1AD6111 /* Pods-HTItunes_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HTItunes_Example-resources.sh"; sourceTree = "<group>"; };
+		166F3FC74A7493C7093434EA2F0C81B7 /* Pods-HTItunes_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HTItunes_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		1FE1A1EA9954685F70C8C8C40A3E981A /* HTItunes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HTItunes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		22497CB5BEF20E39F61D320D40EB037B /* HTItunes-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HTItunes-dummy.m"; sourceTree = "<group>"; };
+		25AB552DB72DBD29854FC6D9B0E035B9 /* HTItunesModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTItunesModel.h; path = HTItunes/Classes/HTItunesModel.h; sourceTree = "<group>"; };
+		30EA62E0F2E5BA411A01C604961E2E24 /* HTItunesManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTItunesManager.h; path = HTItunes/Classes/HTItunesManager.h; sourceTree = "<group>"; };
+		3488F27480D184E8A9B57B151B3248E0 /* HTItunesModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HTItunesModel.m; path = HTItunes/Classes/HTItunesModel.m; sourceTree = "<group>"; };
+		34CEA62E2CA94BCFFD6F695A9AE5CB3E /* HTItunesManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HTItunesManager.m; path = HTItunes/Classes/HTItunesManager.m; sourceTree = "<group>"; };
+		4013E758684D308C7CA87EC5C7CF9456 /* HTItunes.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HTItunes.xcconfig; sourceTree = "<group>"; };
+		46CA921A7FD15C076767256505B4AEC2 /* Pods_HTItunes_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HTItunes_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DFAA906C13641E5C3840B49EFC532A5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FAEF420E583D8D669E9941C5C34132B /* Pods-HTItunes_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HTItunes_Tests-resources.sh"; sourceTree = "<group>"; };
+		5884005066479C17152B4AAE33276B88 /* Pods-HTItunes_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HTItunes_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		59F476D7179B212A19AD3E76C3F87C25 /* HTItunes.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HTItunes.modulemap; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		79DF52670A7771C731933B31D8C9EE45 /* Pods-HTItunes_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HTItunes_Example-umbrella.h"; sourceTree = "<group>"; };
+		7B252D0C704FB8F947B5005D94C9AE9A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		931D073BF781178BAE15016164B8C179 /* Pods-HTItunes_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HTItunes_Example.modulemap"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		97BB11C6C76A5DEBAA0342D6604C514F /* HTItunes-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HTItunes-umbrella.h"; sourceTree = "<group>"; };
+		9C6FA6E8B64A808BEF1EAD490FC04F09 /* Pods-HTItunes_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HTItunes_Example-dummy.m"; sourceTree = "<group>"; };
+		A03140FDA6017861EE418541FF318F20 /* HTItunes.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = HTItunes.podspec; sourceTree = "<group>"; };
+		B093AAA334E3C808574BD5C7E9250775 /* Pods-HTItunes_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HTItunes_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		C7D50866E4CB43D8F19329977F12514E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF4D815A09CBDC229F7A952DE676652C /* HTItunes-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HTItunes-prefix.pch"; sourceTree = "<group>"; };
+		D7D5D15AE38D40E60C592B186498FD3A /* Pods-HTItunes_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HTItunes_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		DA3138616060BBE4BC59A6E5A3C03971 /* Pods-HTItunes_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HTItunes_Example.release.xcconfig"; sourceTree = "<group>"; };
+		DB61C0A9BBB41B7B317EEA7DCFA62631 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		DE5647622706ACF551DC23A10000EE6D /* Pods_HTItunes_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HTItunes_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E345848859F0D7637317EFBB6C2471CB /* Pods-HTItunes_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HTItunes_Tests-umbrella.h"; sourceTree = "<group>"; };
+		E5A69EC3877525E8DC7DF2FAFB9A8C64 /* Pods-HTItunes_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HTItunes_Example-frameworks.sh"; sourceTree = "<group>"; };
+		EC115444C9E154BA2E204AE16F1CCF12 /* Pods-HTItunes_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HTItunes_Tests-dummy.m"; sourceTree = "<group>"; };
+		F4ED8340DE859777DCD79053ECC92E40 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F6D2A119789726B4A54F6623D39225C1 /* HTItunes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTItunes.h; path = HTItunes/Classes/HTItunes.h; sourceTree = "<group>"; };
+		FAE736694A61823DCDA113D1E599F862 /* Pods-HTItunes_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HTItunes_Tests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3CA8D9E85C654B4FB0B50B6463C176D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5791969271151D9D79B79D2FACBE85EE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4B3A44FB51F8F875732FB5ED43EF8F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C882E130712B7361ABB0CB053564B3E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCEE65D1A8979B3BC786DF632C693444 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F26F183E33D22E3D76C279C00814D0ED /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1954FAE10DFB2D0B1804E2E697136200 /* Pods-HTItunes_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C7D50866E4CB43D8F19329977F12514E /* Info.plist */,
+				0B1BCAF991CD0255104DC37561EA6772 /* Pods-HTItunes_Tests.modulemap */,
+				0CF3CFC56C5327888D5EEE78CBD59667 /* Pods-HTItunes_Tests-acknowledgements.markdown */,
+				09A7B1EBDFA5331C3953437528ACB18A /* Pods-HTItunes_Tests-acknowledgements.plist */,
+				EC115444C9E154BA2E204AE16F1CCF12 /* Pods-HTItunes_Tests-dummy.m */,
+				D7D5D15AE38D40E60C592B186498FD3A /* Pods-HTItunes_Tests-frameworks.sh */,
+				4FAEF420E583D8D669E9941C5C34132B /* Pods-HTItunes_Tests-resources.sh */,
+				E345848859F0D7637317EFBB6C2471CB /* Pods-HTItunes_Tests-umbrella.h */,
+				5884005066479C17152B4AAE33276B88 /* Pods-HTItunes_Tests.debug.xcconfig */,
+				FAE736694A61823DCDA113D1E599F862 /* Pods-HTItunes_Tests.release.xcconfig */,
+			);
+			name = "Pods-HTItunes_Tests";
+			path = "Target Support Files/Pods-HTItunes_Tests";
+			sourceTree = "<group>";
+		};
+		46A7103B62AFF28F1542837DC69BABEC /* Pods-HTItunes_Example */ = {
+			isa = PBXGroup;
+			children = (
+				7B252D0C704FB8F947B5005D94C9AE9A /* Info.plist */,
+				931D073BF781178BAE15016164B8C179 /* Pods-HTItunes_Example.modulemap */,
+				0928B827E4ECEE0934DB1980CCCDF031 /* Pods-HTItunes_Example-acknowledgements.markdown */,
+				166F3FC74A7493C7093434EA2F0C81B7 /* Pods-HTItunes_Example-acknowledgements.plist */,
+				9C6FA6E8B64A808BEF1EAD490FC04F09 /* Pods-HTItunes_Example-dummy.m */,
+				E5A69EC3877525E8DC7DF2FAFB9A8C64 /* Pods-HTItunes_Example-frameworks.sh */,
+				0DA2E609B429F67388BA6E75A1AD6111 /* Pods-HTItunes_Example-resources.sh */,
+				79DF52670A7771C731933B31D8C9EE45 /* Pods-HTItunes_Example-umbrella.h */,
+				B093AAA334E3C808574BD5C7E9250775 /* Pods-HTItunes_Example.debug.xcconfig */,
+				DA3138616060BBE4BC59A6E5A3C03971 /* Pods-HTItunes_Example.release.xcconfig */,
+			);
+			name = "Pods-HTItunes_Example";
+			path = "Target Support Files/Pods-HTItunes_Example";
+			sourceTree = "<group>";
+		};
+		630E772DD1689CD4D3B618C9976904AA /* HTItunes */ = {
+			isa = PBXGroup;
+			children = (
+				F6D2A119789726B4A54F6623D39225C1 /* HTItunes.h */,
+				30EA62E0F2E5BA411A01C604961E2E24 /* HTItunesManager.h */,
+				34CEA62E2CA94BCFFD6F695A9AE5CB3E /* HTItunesManager.m */,
+				25AB552DB72DBD29854FC6D9B0E035B9 /* HTItunesModel.h */,
+				3488F27480D184E8A9B57B151B3248E0 /* HTItunesModel.m */,
+				85AFD205B9FA90A3E6DFC52FCD493717 /* Pod */,
+				6541B6B86684A53BD7DBC59532D40868 /* Support Files */,
+			);
+			name = HTItunes;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		6541B6B86684A53BD7DBC59532D40868 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				59F476D7179B212A19AD3E76C3F87C25 /* HTItunes.modulemap */,
+				4013E758684D308C7CA87EC5C7CF9456 /* HTItunes.xcconfig */,
+				22497CB5BEF20E39F61D320D40EB037B /* HTItunes-dummy.m */,
+				CF4D815A09CBDC229F7A952DE676652C /* HTItunes-prefix.pch */,
+				97BB11C6C76A5DEBAA0342D6604C514F /* HTItunes-umbrella.h */,
+				4DFAA906C13641E5C3840B49EFC532A5 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/HTItunes";
+			sourceTree = "<group>";
+		};
+		72A2828F6E8AD9955C50A6FF0A049E99 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1FE1A1EA9954685F70C8C8C40A3E981A /* HTItunes.framework */,
+				46CA921A7FD15C076767256505B4AEC2 /* Pods_HTItunes_Example.framework */,
+				DE5647622706ACF551DC23A10000EE6D /* Pods_HTItunes_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				F4796C4B88EA6A1F8AE84FE919BFFD62 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				72A2828F6E8AD9955C50A6FF0A049E99 /* Products */,
+				D9B11294B65EBBB0F949438195A5BEAE /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		85AFD205B9FA90A3E6DFC52FCD493717 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				A03140FDA6017861EE418541FF318F20 /* HTItunes.podspec */,
+				DB61C0A9BBB41B7B317EEA7DCFA62631 /* LICENSE */,
+				F4ED8340DE859777DCD79053ECC92E40 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D9B11294B65EBBB0F949438195A5BEAE /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				46A7103B62AFF28F1542837DC69BABEC /* Pods-HTItunes_Example */,
+				1954FAE10DFB2D0B1804E2E697136200 /* Pods-HTItunes_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F4796C4B88EA6A1F8AE84FE919BFFD62 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				630E772DD1689CD4D3B618C9976904AA /* HTItunes */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		02C5AD413111EBF631826DECE81DB901 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25EF8F55A7895BAF04A3CF23FFFC4CCC /* HTItunes-umbrella.h in Headers */,
+				204953A43E7BBE01928EC1BB59575F37 /* HTItunes.h in Headers */,
+				2B056BDE5F3F722255629FAF2243E19D /* HTItunesManager.h in Headers */,
+				3F996CAE13DC97B3489B63B6006AA99A /* HTItunesModel.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0364BA2BEA45AF190041747A38E325E0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71F53DBE04067E051484D1B405B5D4A5 /* Pods-HTItunes_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6760D95907E4EAD55D866F42BCB5C1DF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				492F842D14B13DCD4925457A4EAFCE84 /* Pods-HTItunes_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8290DEE2570467F7B9647A08E927DFAB /* Pods-HTItunes_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A7C254B545AD9FB832F3E42AB6BDB5C /* Build configuration list for PBXNativeTarget "Pods-HTItunes_Example" */;
+			buildPhases = (
+				8C1BEB6A9E446C2D6C31673B2A63AE0F /* Sources */,
+				CCEE65D1A8979B3BC786DF632C693444 /* Frameworks */,
+				0364BA2BEA45AF190041747A38E325E0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				198964BA7FE7A291B16B4EE661E38CC1 /* PBXTargetDependency */,
+			);
+			name = "Pods-HTItunes_Example";
+			productName = "Pods-HTItunes_Example";
+			productReference = 46CA921A7FD15C076767256505B4AEC2 /* Pods_HTItunes_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A9C2A900F7DD981ADED928811C66F182 /* HTItunes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6805E8746E3E63B2F618641FCB21C01 /* Build configuration list for PBXNativeTarget "HTItunes" */;
+			buildPhases = (
+				A079132E390AF4C05190C544183AC454 /* Sources */,
+				3CA8D9E85C654B4FB0B50B6463C176D2 /* Frameworks */,
+				02C5AD413111EBF631826DECE81DB901 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HTItunes;
+			productName = HTItunes;
+			productReference = 1FE1A1EA9954685F70C8C8C40A3E981A /* HTItunes.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C9C9780D50F34FBC3EE4A07472E92A12 /* Pods-HTItunes_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DEFA1080274D564CFC32C4C34F772B1 /* Build configuration list for PBXNativeTarget "Pods-HTItunes_Tests" */;
+			buildPhases = (
+				CBCDCB3B68BF414E31C2C4186F34F6A0 /* Sources */,
+				B4B3A44FB51F8F875732FB5ED43EF8F4 /* Frameworks */,
+				6760D95907E4EAD55D866F42BCB5C1DF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-HTItunes_Tests";
+			productName = "Pods-HTItunes_Tests";
+			productReference = DE5647622706ACF551DC23A10000EE6D /* Pods_HTItunes_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 72A2828F6E8AD9955C50A6FF0A049E99 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9C2A900F7DD981ADED928811C66F182 /* HTItunes */,
+				8290DEE2570467F7B9647A08E927DFAB /* Pods-HTItunes_Example */,
+				C9C9780D50F34FBC3EE4A07472E92A12 /* Pods-HTItunes_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8C1BEB6A9E446C2D6C31673B2A63AE0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EB10F4B6A82DA3DD4E7830CC662CFE4 /* Pods-HTItunes_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A079132E390AF4C05190C544183AC454 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A23EA69D71E1A3B035FC1F042179E751 /* HTItunes-dummy.m in Sources */,
+				74EF009A9DE7B056F30FAA1C5013A130 /* HTItunesManager.m in Sources */,
+				EC35B020806909D6352AC213C006D33B /* HTItunesModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBCDCB3B68BF414E31C2C4186F34F6A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AB5C1211F06300CA06C22D3C347386C /* Pods-HTItunes_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		198964BA7FE7A291B16B4EE661E38CC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HTItunes;
+			target = A9C2A900F7DD981ADED928811C66F182 /* HTItunes */;
+			targetProxy = B2A4354DD3ED7B14E6697D1C76CFE975 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0304E9C12F4DD9AABEF129B4A601EA58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5884005066479C17152B4AAE33276B88 /* Pods-HTItunes_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HTItunes_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HTItunes_Tests/Pods-HTItunes_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HTItunes_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2F766F2486B65C7DEF6BDB386142887A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4013E758684D308C7CA87EC5C7CF9456 /* HTItunes.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HTItunes/HTItunes-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HTItunes/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HTItunes/HTItunes.modulemap";
+				PRODUCT_NAME = HTItunes;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		441118A23A9CD36F9141172CF8E8BA22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B093AAA334E3C808574BD5C7E9250775 /* Pods-HTItunes_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HTItunes_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HTItunes_Example/Pods-HTItunes_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HTItunes_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4C01D514D121BCFF3BEEC9610F2F4A36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAE736694A61823DCDA113D1E599F862 /* Pods-HTItunes_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HTItunes_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HTItunes_Tests/Pods-HTItunes_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HTItunes_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5011B865762FC0C0A28ECEC4CB63DC68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		827269710C98D60C14D46BC6AF9BF728 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B01121726D69118A1BA8F9F845BE8960 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4013E758684D308C7CA87EC5C7CF9456 /* HTItunes.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HTItunes/HTItunes-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HTItunes/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HTItunes/HTItunes.modulemap";
+				PRODUCT_NAME = HTItunes;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D6F9C2EE5D725764A927D517D6148F20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA3138616060BBE4BC59A6E5A3C03971 /* Pods-HTItunes_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HTItunes_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HTItunes_Example/Pods-HTItunes_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HTItunes_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5011B865762FC0C0A28ECEC4CB63DC68 /* Debug */,
+				827269710C98D60C14D46BC6AF9BF728 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DEFA1080274D564CFC32C4C34F772B1 /* Build configuration list for PBXNativeTarget "Pods-HTItunes_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0304E9C12F4DD9AABEF129B4A601EA58 /* Debug */,
+				4C01D514D121BCFF3BEEC9610F2F4A36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A7C254B545AD9FB832F3E42AB6BDB5C /* Build configuration list for PBXNativeTarget "Pods-HTItunes_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				441118A23A9CD36F9141172CF8E8BA22 /* Debug */,
+				D6F9C2EE5D725764A927D517D6148F20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6805E8746E3E63B2F618641FCB21C01 /* Build configuration list for PBXNativeTarget "HTItunes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B01121726D69118A1BA8F9F845BE8960 /* Debug */,
+				2F766F2486B65C7DEF6BDB386142887A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

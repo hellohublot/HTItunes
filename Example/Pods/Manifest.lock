@@ -1,0 +1,16 @@
+PODS:
+  - HTItunes (0.1.0)
+
+DEPENDENCIES:
+  - HTItunes (from `../`)
+
+EXTERNAL SOURCES:
+  HTItunes:
+    :path: ../
+
+SPEC CHECKSUMS:
+  HTItunes: 4a0c9d99c7d2f7778d22ba69816ba34452063ff3
+
+PODFILE CHECKSUM: c836776976e6c4cc8442d2907a42c469606c64ad
+
+COCOAPODS: 1.4.0

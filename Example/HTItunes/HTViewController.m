@@ -7,6 +7,7 @@
 //
 
 #import "HTViewController.h"
+#import <HTItunes/HTItunes.h>
 
 @interface HTViewController ()
 
@@ -14,16 +15,36 @@
 
 @implementation HTViewController
 
-- (void)viewDidLoad
-{
-    [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+/*-------------------------------------/init /-----------------------------------*/
+
+- (void)viewDidLoad {
+	[super viewDidLoad];
+	[self initializeDataSource];
+	[self initializeUserInterface];
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)initializeDataSource {
+	if ([HTItunesManager isFirstInstallLaunch]) {
+		NSLog(@"首次启动");
+	}
+	[HTItunesManager requestLatestApplicationId:@"1067751179" complete:^(NSString *applicationId, HTItunesModel *model, NSString *appstoreVersion, NSString *currentVersion, BOOL shouldUpdate, BOOL currentIsReview) {
+		if (shouldUpdate) {
+			[HTItunesManager alertUpdateTitle:@"更新啦" updateDetail:model.releaseNotes complete:^(BOOL sureUpdate) {
+				if (sureUpdate) {
+					[HTItunesManager opentApplicationId:applicationId];
+				}
+			}];
+		}
+	}];
 }
+
+- (void)initializeUserInterface {
+	
+}
+
+/*-------------------------------------/ controller override /-----------------------------------*/
+
+/*-------------------------------------/ controller leave /-----------------------------------*/
+
 
 @end

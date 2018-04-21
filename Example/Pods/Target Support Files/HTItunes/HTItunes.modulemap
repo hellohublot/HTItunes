@@ -1,0 +1,6 @@
+framework module HTItunes {
+  umbrella header "HTItunes-umbrella.h"
+
+  export *
+  module * { export * }
+}
